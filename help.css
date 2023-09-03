@@ -1,0 +1,79 @@
+/* Styles for the pop-up card */
+.popup-card {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    z-index: 1000;
+}
+
+/* Styles for the "How to Play" button */
+#howToPlayBtn {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for the "Close" button inside the pop-up card */
+#closeBtn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Background color behind the image */
+}
+
+/* Styles for the game image */
+.game-image {
+    width: 800px; /* Adjust the dimensions as needed */
+    height: 450px;
+    background-image: url('game-cover.png'); /* Replace with your game image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+/* Styles for the button container */
+.button-container {
+    margin-top: 20px;
+}
+
+/* Styles for the buttons */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 18px;
+}
+
+/* Styles for the "Start Game" button */
+#startGameBtn {
+    background-color: #28a745;
+}
+
+/* Add more button styles and customization as needed */
+
