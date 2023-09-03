@@ -7,7 +7,14 @@
     <title>First-Person Shooter Game</title>
 </head>
 <body>
-	
+
+<style>
+	h1,h2,p,li{
+		font-family: Arial;
+		font-size: 14px;
+	}
+</style>
+
 	<div class="container">
         <!-- Background image of the game -->
         <div class="game-image">
@@ -17,6 +24,20 @@
         <!-- Buttons on top of the image -->
         <div class="button-container">
             <button id="howToPlayBtn">How to Play</button>
+			    <!-- Create a pop-up card for instructions (hidden by default) -->
+				<div id="popupCard" class="popup-card">
+					<h2>How to Play</h2>
+					<p>Follow these instructions to play the game:</p>
+					<ul>
+						<li>Use the WASD keys or arrow keys to move your character.</li>
+						<li>Press the spacebar to jump and navigate obstacles.</li>
+						<li>Hold Shift to sprint for faster movement.</li>
+						<!-- Add more instructions here -->
+					</ul>
+					<!-- Add a "Close" button to close the pop-up -->
+					<button id="closeBtn">Close</button>
+				</div>
+
             <a href="game.html"><button id="startGameBtn">Start Game</button></a>
         </div>
     </div>
