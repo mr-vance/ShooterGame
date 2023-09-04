@@ -1,6 +1,6 @@
 # First-Person Shooter Game
 
-![Game](game-cover.jpg)
+![Game](assets/images/game-cover.jpg)
 
 Welcome to our exciting first-person shooter game! Engage in fast-paced action, explore immersive environments, and battle against formidable foes. Prepare for an adrenaline-pumping gaming experience like no other!
 
