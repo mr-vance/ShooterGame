@@ -30,7 +30,7 @@ THREE.FirstPersonControls = function ( camera, MouseMoveSensitivity = 0.002, spe
   function playAudio() {
     // Load the audio file
     const audioLoader = new THREE.AudioLoader();
-    audioLoader.load('/assets/sounds/fire.mp3', function (buffer) {
+    audioLoader.load('fire.mp3', function (buffer) {
       sound.setBuffer(buffer);
       sound.setLoop(false); // Change to true if you want the audio to loop
       sound.setVolume(1);   // Adjust the volume as needed
@@ -317,7 +317,7 @@ function init() {
 
   // Load a texture for the floor
   var textureLoader = new THREE.TextureLoader();
-  var floorTexture = textureLoader.load('/assets/images/floor.jpg');
+  var floorTexture = textureLoader.load('floor.jpg');
 
   // Create a material with the loaded texture
   var floorMaterial = new THREE.MeshLambertMaterial({ map: floorTexture });
@@ -337,9 +337,9 @@ function init() {
   // Preload your textures
   var textureLoader = new THREE.TextureLoader();
   var textures = [
-    textureLoader.load('/assets/images/wall-1.jpg'), 
-    textureLoader.load('/assets/images/wall-2.jpg'), 
-    textureLoader.load('/assets/images/wall-3.jpeg') 
+    textureLoader.load('wall-1.jpg'), 
+    textureLoader.load('wall-2.jpg'), 
+    textureLoader.load('wall-3.jpeg') 
   ];
 
   var boxGeometry = new THREE.BoxBufferGeometry(1, 1, 1);

@@ -48,7 +48,7 @@
 .game-image {
     width: 800px; /* Adjust the dimensions as needed */
     height: 450px;
-    background-image: url('/assets/images/game-cover.png'); /* Replace with your game image URL */
+    background-image: url('game-cover.png'); /* Replace with your game image URL */
     background-size: cover;
     background-position: center;
     position: relative;
